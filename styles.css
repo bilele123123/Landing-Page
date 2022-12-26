@@ -1,3 +1,57 @@
-h1 {
-    color: yellow;
+.firstSection {
+    background-color: #1f2937;
+    color: white;
+    padding: 0 200px;
+}
+
+.mainText {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.secondaryText {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.headerLogo {
+    font-size: 24px;
+    color:#F9FAF8
+}
+
+.headerLink {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #3882f6;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainSection {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    justify-content: space-between;
+}
+
+.placeholder {
+    width: 650px;
+    height: 250px;
+    background-color: gray;
+}
+
+.main {
+    width: 600px;
 }
